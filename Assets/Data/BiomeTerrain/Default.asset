@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db97c2cbce36f06449cc6009f4ef22a4, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  biomeName: Default
+  solidGroundHeight: 42
+  terrainHeight: 42
+  deepStoneHeight: 32
+  deepestStoneHeight: 16
+  terrainScale: 0.25
+  vegetationZoneScale: 1.3
+  vegetationZoneThreshold: 0.6
+  vegetationPlacementScale: 15
+  vegetationPlacementThreshold: 0.8
+  maximumVegetationHeight: 12
+  minimumVegetationHeight: 5
+  lodes:
+  - nodeName: Dirt
+    layer: 0
+    blockId: 4
+    scale: 0.1
+    threshold: 0.6
+    noiseOffset: 0
+  - nodeName: Gravel
+    layer: 0
+    blockId: 27
+    scale: 0.15
+    threshold: 0.6
+    noiseOffset: 10
+  - nodeName: Sand
+    layer: 0
+    blockId: 5
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 20
+  - nodeName: Clay
+    layer: 0
+    blockId: 28
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 30
+  - nodeName: Coal
+    layer: 1
+    blockId: 10
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 40
+  - nodeName: Amethyst
+    layer: 1
+    blockId: 11
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 50
+  - nodeName: Ruby
+    layer: 1
+    blockId: 12
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 60
+  - nodeName: Emerald
+    layer: 1
+    blockId: 13
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 70
+  - nodeName: Saphire
+    layer: 1
+    blockId: 14
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 80
+  - nodeName: Amber
+    layer: 1
+    blockId: 15
+    scale: 0.2
+    threshold: 0.61
+    noiseOffset: 90
+  - nodeName: Gold
+    layer: 1
+    blockId: 16
+    scale: 0.2
+    threshold: 0.61
+    noiseOffset: 100
+  - nodeName: Zinc
+    layer: 1
+    blockId: 17
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 110
+  - nodeName: Aluminium
+    layer: 1
+    blockId: 18
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 120
+  - nodeName: Iron
+    layer: 1
+    blockId: 19
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 130
+  - nodeName: Lead
+    layer: 1
+    blockId: 20
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 140
+  - nodeName: Tin
+    layer: 1
+    blockId: 21
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 150
+  - nodeName: Diamond
+    layer: 1
+    blockId: 22
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 160
+  - nodeName: Copper
+    layer: 2
+    blockId: 23
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 170
+  - nodeName: Silver
+    layer: 2
+    blockId: 24
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 180
+  - nodeName: Cobalt
+    layer: 3
+    blockId: 25
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 190
+  - nodeName: Uranium
+    layer: 3
+    blockId: 24
+    scale: 0.2
+    threshold: 0.6
+    noiseOffset: 200
+  - nodeName: Air
+    layer: 0
+    blockId: 0
+    scale: 0.25
+    threshold: 0.55
+    noiseOffset: 210
